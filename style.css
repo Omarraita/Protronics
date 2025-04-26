@@ -17,12 +17,12 @@ body {
 .navbar {
     background-color: #fff;
     color: #000;
-    padding: 20px 40px;
+    padding: 26px 55px; /* Increased from 24px 50px */
     display: flex;
     justify-content: space-between;
     align-items: center;
     /*border-bottom: 1px solid #000;*/
-    max-width: 1200px;
+    max-width: 1500px; /* Increased from 1400px */
     margin: 0 auto;
     width: 100%;
 }
@@ -32,7 +32,7 @@ body {
 }
 
 .logo {
-    height: 60px;
+    height: 75px; /* Increased from 70px */
     width: auto;
 }
 
@@ -48,24 +48,24 @@ body {
 
 .nav-toggle-label span {
     display: block;
-    width: 25px;
-    height: 3px;
+    width: 33px; /* Increased from 30px */
+    height: 5px; /* Increased from 4px */
     background-color: #000;
-    margin: 5px 0;
+    margin: 7px 0; /* Increased from 6px */
     transition: all 0.3s ease;
 }
 
 .navbar ul {
     list-style: none;
     display: flex;
-    gap: 30px;
+    gap: 40px; /* Increased from 36px */
 }
 
 .navbar ul li a {
     color: #000;
     text-decoration: none;
-    font-size: 0.9rem; /* Reverted to match index page */
-    font-weight: 400; /* Reverted to match index page */
+    font-size: 1.1rem; /* Increased from 1rem */
+    font-weight: 400;
     position: relative;
 }
 
@@ -93,22 +93,22 @@ body {
 /* Page Header (used in portfolio.html, services.html, etc.) */
 .page-header {
     text-align: center;
-    padding:   50px 40px;
+    padding: 66px 55px; /* Increased from  lawsuits60px 50px */
     background-color: #fff;
-    max-width: 1200px;
+    max-width: 1500px; /* Increased from 1400px */
     margin: 0 auto;
 }
 
 .page-header h2 {
-    font-size: 2.5rem;
+    font-size: 3rem; /* Increased from 2.8rem */
     font-weight: 700;
     text-transform: uppercase;
-    margin-bottom: 10px;
+    margin-bottom: 13px; /* Increased from 12px */
 }
 
 .page-header p {
-    font-size: 1.2rem;
-    margin-bottom: 40px;
+    font-size: 1.4rem; /* Increased from 1.3rem */
+    margin-bottom: 53px; /* Increased from 48px */
 }
 
 /* Hero Section */
@@ -117,9 +117,9 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 80px 40px;
+    padding: 106px 55px; /* Increased from 96px 50px */
     background-color: #fff;
-    max-width: 1200px;
+    max-width: 1500px; /* Increased from 1400px */
     margin: 0 auto;
 }
 
@@ -129,25 +129,25 @@ body {
 }
 
 .hero-content h2 {
-    font-size: 2.5rem;
+    font-size: 3rem; /* Increased from 2.8rem */
     font-weight: 600;
     text-transform: none;
-    margin-bottom: 20px;
+    margin-bottom: 26px; /* Increased from 24px */
     line-height: 1.2;
 }
 
 .hero-content p {
-    font-size: 1.2rem;
-    margin-bottom: 30px;
+    font-size: 1.4rem; /* Increased from 1.3rem */
+    margin-bottom: 40px; /* Increased from 36px */
 }
 
 .hero-content .button {
     background-color: #000;
     color: #fff;
-    padding: 12px 30px;
+    padding: 15px 40px; /* Increased from 14px 36px */
     text-decoration: none;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 1.3rem; /* Increased from 1.2rem */
     text-transform: uppercase;
     transition: background-color 0.3s ease;
 }
@@ -164,86 +164,86 @@ body {
 .hero-image img {
     max-width: 100%;
     height: auto;
-    width: 80%;
+    width: 90%; /* Increased from 85% */
 }
 
 /* Services Section */
 .services-cards {
     text-align: center;
-    padding: 40px 10px;
+    padding: 53px 13px; /* Increased from 48px 12px */
     background-color: #fff;
     border-bottom: 1px solid #000;
-    max-width: 1200px; /* Already centered, kept for consistency */
+    max-width: 1500px; /* Increased from 1400px */
     margin: 0 auto;
     width: 100%;
 }
 
 .services-cards h2 {
-    font-size: 2.5rem;
+    font-size: 3rem; /* Increased from 2.8rem */
     font-weight: 700;
     text-transform: uppercase;
-    margin-bottom: 40px;
+    margin-bottom: 53px; /* Increased from 48px */
 }
 
 .cards-container {
     display: grid;
-    grid-template-columns: repeat(4, minmax(200px, 1fr));
-    gap: 20px;
-    max-width: 1200px;
+    grid-template-columns: repeat(4, minmax(260px, 1fr)); /* Increased from 240px */
+    gap: 26px; /* Increased from 24px */
+    max-width: 1500px; /* Increased from 1400px */
     margin: 0 auto;
 }
 
 .card {
     background-color: #fff;
     text-align: center;
-    padding: 15px;
+    padding: 20px; /* Increased from 18px */
 }
 
 .card i {
-    font-size: 2rem;
-    margin-bottom: 15px;
+    font-size: 2.6rem; /* Increased from 2.4rem */
+    margin-bottom: 20px; /* Increased from 18px */
 }
 
 .card h3 {
-    font-size: 1.2rem;
+    font-size: 1.5rem; /* Increased from 1.4rem */
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 13px; /* Increased from 12px */
     text-transform: uppercase;
 }
 
 .card p {
-    font-size: 0.9rem;
+    font-size: 1.1rem; /* Increased from 1rem */
     color: #000;
 }
 
 /* Portfolio Section */
 .portfolio-section {
     text-align: center;
-    padding: 60px 40px;
+    padding: 79px 55px; /* Increased from 72px 50px */
     background-color: #fff;
     border-bottom: 1px solid #000;
-    max-width: 1200px;
+    max-width: 1500px; /* Increased from 1400px */
     margin: 0 auto;
 }
 
 .portfolio-section h2 {
-    font-size: 2.5rem;
+    font-size: 3rem; /* Increased from 2.8rem */
     font-weight: 700;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 26px; /* Increased from 24px */
 }
 
 .portfolio-section p {
-    font-size: 1.2rem;
-    margin-bottom: 40px;
+    font-size: 1.4rem; /* Increased from 1.3rem */
+    margin-bottom: 53px; /* Increased from 48px */
 }
 
 .portfolio-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 30px;
-    max-width: 1200px;
-    margin: 0 auto 40px;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)); /* Increased from 300px */
+    gap: 40px; /* Increased from 36px */
+    max-width: 1500px; /* Increased from 1400px */
+    margin: 0 auto 53px; /* Increased from 48px */
 }
 
 .portfolio-card {
@@ -255,30 +255,30 @@ body {
 
 .portfolio-card img {
     width: 100%;
-    height: 150px;
+    height: 198px; /* Increased from 180px */
     object-fit: cover;
 }
 
 .portfolio-card h3 {
-    font-size: 1.5rem;
+    font-size: 2rem; /* Increased from 1.8rem */
     font-weight: 600;
-    margin: 15px 15px 10px;
+    margin: 20px 20px 13px; /* Increased from 18px 18px 12px */
     text-transform: uppercase;
 }
 
 .portfolio-card p {
-    font-size: 1rem;
-    margin: 0 15px 15px;
+    font-size: 1.3rem; /* Increased from 1.2rem */
+    margin: 0 20px 20px; /* Increased from 18px */
     color: #000;
 }
 
 .portfolio-section .button {
     background-color: #000;
     color: #fff;
-    padding: 12px 30px;
+    padding: 15px 40px; /* Increased from 14px 36px */
     text-decoration: none;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 1.3rem; /* Increased from 1.2rem */
     text-transform: uppercase;
     transition: background-color 0.3s ease;
 }
@@ -290,52 +290,52 @@ body {
 /* About Section */
 .about-me {
     text-align: center;
-    padding: 60px 40px;
+    padding: 79px 55px; /* Increased from 72px 50px */
     background-color: #fff;
-    border-bottom: 1px solid #000; /* Added horizontal line */
-    max-width: 1200px;
+    border-bottom: 1px solid #000;
+    max-width: 1500px; /* Increased from 1400px */
     margin: 0 auto;
 }
 
 .about-me h2 {
-    font-size: 2.5rem;
+    font-size: 3rem; /* Increased from 2.8rem */
     font-weight: 700;
     text-transform: uppercase;
-    margin-bottom: 40px;
+    margin-bottom: 53px; /* Increased from 48px */
 }
 
 .about-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 600px;
+    max-width: 792px; /* Increased from 720px */
     margin: 0 auto;
 }
 
 .about-image {
-    width: 150px;
-    height: 150px;
+    width: 198px; /* Increased from 180px */
+    height: 198px; /* Increased from 180px */
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 20px;
+    margin-bottom: 26px; /* Increased from 24px */
 }
 
 .about-container p {
-    font-size: 1rem;
+    font-size: 1.3rem; /* Increased from 1.2rem */
     color: #000;
-    margin-bottom: 20px;
+    margin-bottom: 26px; /* Increased from 24px */
 }
 
 .linkedin-link {
-    font-size: 1.1rem;
+    font-size: 1.4rem; /* Increased from 1.3rem */
     color: #000;
     text-decoration: none;
     font-weight: 600;
 }
 
 .linkedin-link i {
-    margin-right: 8px;
-    font-size: 1.3rem;
+    margin-right: 11px; /* Increased from 10px */
+    font-size: 1.6rem; /* Increased from 1.5rem */
     vertical-align: middle;
 }
 
@@ -345,9 +345,9 @@ body {
 
 /* Contact Section */
 .contact-section {
-    padding: 60px 40px;
+    padding: 79px 55px; /* Increased from 72px 50px */
     background-color: #fff;
-    max-width: 1200px;
+    max-width: 1500px; /* Increased from 1400px */
     margin: 0 auto;
     border-bottom: 1px solid #000;
 }
@@ -355,8 +355,8 @@ body {
 .contact-container {
     display: flex;
     justify-content: space-between;
-    gap: 40px;
-    max-width: 1200px;
+    gap: 53px; /* Increased from 48px */
+    max-width: 1500px; /* Increased from 1400px */
     margin: 0 auto;
 }
 
@@ -365,19 +365,19 @@ body {
 }
 
 .contact-info h3 {
-    font-size: 1.5rem;
+    font-size: 2rem; /* Increased from 1.8rem */
     font-weight: 600;
-    margin-bottom: 20px;
+    margin-bottom: 26px; /* Increased from 24px */
     text-transform: uppercase;
 }
 
 .contact-info p {
-    font-size: 1rem;
-    margin-bottom: 10px;
+    font-size: 1.3rem; /* Increased from 1.2rem */
+    margin-bottom: 13px; /* Increased from 12px */
 }
 
 .contact-info i {
-    margin-right: 10px;
+    margin-right: 13px; /* Increased from 12px */
 }
 
 .contact-form {
@@ -385,22 +385,22 @@ body {
 }
 
 .contact-form h3 {
-    font-size: 1.5rem;
+    font-size: 2rem; /* Increased from 1.8rem */
     font-weight: 600;
-    margin-bottom: 20px;
+    margin-bottom: 26px; /* Increased from 24px */
     text-transform: uppercase;
 }
 
 .contact-form form {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 20px; /* Increased from 18px */
 }
 
 .contact-form input,
 .contact-form textarea {
-    padding: 10px;
-    font-size: 1rem;
+    padding: 13px; /* Increased from 12px */
+    font-size: 1.3rem; /* Increased from 1.2rem */
     border: 1px solid #ccc;
     border-radius: 5px;
     font-family: 'Poppins', Arial, sans-serif;
@@ -413,10 +413,10 @@ body {
 .contact-form button {
     background-color: #000;
     color: #fff;
-    padding: 12px 30px;
+    padding: 15px 40px; /* Same as previous */
     border: none;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 1.3rem; /* Same as previous */
     text-transform: uppercase;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -431,7 +431,7 @@ footer {
     background-color: #000;
     color: #fff;
     text-align: center;
-    padding: 20px;
+    padding: 26px; /* Increased from 24px */
 }
 
 footer p {
@@ -441,7 +441,7 @@ footer p {
 footer a {
     color: #fff;
     text-decoration: none;
-    margin-left: 10px;
+    margin-left: 13px; /* Increased from 12px */
 }
 
 footer a:hover {
@@ -449,13 +449,13 @@ footer a:hover {
 }
 
 .social-icons {
-    margin-top: 10px;
+    margin-top: 13px; /* Increased from 12px */
 }
 
 .social-icons a {
     color: #fff;
-    font-size: 1.2rem;
-    margin: 0 10px;
+    font-size: 1.5rem; /* Increased from 1.4rem */
+    margin: 0 13px; /* Increased from 12px */
     text-decoration: none;
 }
 
@@ -474,30 +474,31 @@ footer a:hover {
         max-width: 100%;
         margin: 0;
         position: relative;
+        padding: 16px 28px; /* Increased from 15px 25px */
     }
 
     .navbar nav {
         display: none;
         width: 100%;
         position: absolute;
-        top: 80px;
+        top: 95px; /* Adjusted for larger logo */
         left: 0;
         background-color: #fff;
-        padding: 20px;
+        padding: 28px; /* Increased from 25px */
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
 
     .navbar ul {
         flex-direction: column;
-        gap: 10px;
+        gap: 13px; /* Increased from 12px */
         text-align: center;
     }
 
     .navbar ul li a {
-        font-size: 1.2rem;
+        font-size: 1.5rem; /* Increased from 1.4rem */
         font-weight: 500;
         display: block;
-        padding: 10px 0;
+        padding: 13px 0; /* Increased from 12px */
     }
 
     .nav-toggle:checked ~ nav {
@@ -506,36 +507,36 @@ footer a:hover {
 
     /* Page Header Adjustments */
     .page-header {
-        padding: 40px 20px;
+        padding: 53px 28px; /* Increased from 48px 25px */
     }
 
     .page-header h2 {
-        font-size: 2rem;
+        font-size: 2.4rem; /* Increased from 2.2rem */
     }
 
     .page-header p {
-        font-size: 1rem;
+        font-size: 1.2rem; /* Increased from 1.1rem */
     }
 
     /* Hero Section Adjustments */
     .hero-section {
         flex-direction: column;
-        padding: 40px 20px;
+        padding: 53px 28px; /* Increased from 48px 25px */
         max-width: 100%;
         margin: 0;
     }
 
     .hero-content {
         max-width: 100%;
-        margin-bottom: 40px;
+        margin-bottom: 53px; /* Increased from 48px */
     }
 
     .hero-content h2 {
-        font-size: 2rem;
+        font-size: 2.4rem; /* Increased from 2.2rem */
     }
 
     .hero-content p {
-        font-size: 1rem;
+        font-size: 1.2rem; /* Increased from 1.1rem */
     }
 
     .hero-content .button {
@@ -547,74 +548,74 @@ footer a:hover {
     }
 
     .hero-image img {
-        width: 70%;
-        max-height: 300px;
+        width: 80%; /* Increased from 75% */
+        max-height: 396px; /* Increased from 360px */
         object-fit: contain;
     }
 
     /* Services Section Adjustments */
     .services-cards {
-        padding: 40px 20px;
+        padding: 53px 28px; /* Increased from 48px 25px */
     }
 
     .services-cards h2 {
-        font-size: 2rem;
+        font-size: 2.4rem; /* Increased from 2.2rem */
     }
 
     .cards-container {
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); /* Increased from 240px */
     }
 
     .card h3 {
-        font-size: 1rem;
+        font-size: 1.3rem; /* Increased from 1.2rem */
     }
 
     .card p {
-        font-size: 0.8rem;
+        font-size: 1rem; /* Increased from 0.9rem */
     }
 
     /* Portfolio Section Adjustments */
     .portfolio-section {
-        padding: 40px 20px;
+        padding: 53px 28px; /* Increased from 48px 25px */
     }
 
     .portfolio-section h2 {
-        font-size: 2rem;
+        font-size: 2.4rem; /* Increased from 2.2rem */
     }
 
     .portfolio-section p {
-        font-size: 1rem;
+        font-size: 1.2rem; /* Increased from 1.1rem */
     }
 
     /* About Section Adjustments */
     .about-me {
-        padding: 40px 20px;
+        padding: 53px 28px; /* Increased from 48px 25px */
     }
 
     .about-me h2 {
-        font-size: 2rem;
+        font-size: 2.4rem; /* Increased from 2.2rem */
     }
 
     .about-container p {
-        font-size: 0.9rem;
+        font-size: 1.1rem; /* Increased from 1rem */
     }
 
     /* Contact Section Adjustments */
     .contact-section {
-        padding: 40px 20px;
+        padding: 53px 28px; /* Increased from 48px 25px */
     }
 
     .contact-container {
         flex-direction: column;
-        gap: 20px;
+        gap: 26px; /* Increased from 24px */
     }
 
     .contact-info h3,
     .contact-form h3 {
-        font-size: 1.3rem;
+        font-size: 1.6rem; /* Increased from 1.5rem */
     }
 
     .contact-info p {
-        font-size: 0.9rem;
+        font-size: 1.1rem; /* Increased from 1rem */
     }
 }
