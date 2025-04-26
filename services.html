@@ -3,17 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Services - NextScale</title>
+    <title>Services - Protronics</title>
     <link href="style.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 <body>
     <header class="navbar">
-        <h1>NextScale</h1>
+        <a href="index.html" class="logo-link">
+            <img src="logo.png" alt="eNextia Logo" class="logo">
+        </a>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="services.html">Services</a></li>
+                <li><a href="services.html" class="active">Services</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -23,56 +31,41 @@
     <main>
         <section class="page-header">
             <h2>Our Services</h2>
-            <p>Discover how NextScale empowers innovation through electronics and engineering expertise.</p>
+            <p>Discover the range of electronics and engineering services we provide to bring your ideas to life.</p>
         </section>
         <section class="services-cards">
-            <h2>What We Offer</h2>
             <div class="cards-container">
                 <div class="card">
                     <i class="fas fa-microchip"></i>
                     <h3>Analog and Digital Circuit Design</h3>
-                    <p>
-                        Expertise in designing high-performance analog and digital circuits tailored to meet the most demanding application requirements.
-                        From concept to prototype, we ensure precise and reliable designs.
-                    </p>
+                    <p>Expert design of high-performance analog and digital circuits for diverse applications.</p>
                 </div>
                 <div class="card">
                     <i class="fas fa-tools"></i>
-                    <h3>PCB Development and Prototyping</h3>
-                    <p>
-                        Custom PCB design and prototyping services for innovative electronics products. We focus on efficiency, miniaturization, and
-                        seamless integration for optimal performance.
-                    </p>
+                    <h3>PCB Development and Integration</h3>
+                    <p>Custom PCB design and seamless integration tailored to your product's requirements.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-check-circle"></i>
+                    <h3>Electronics Certification</h3>
+                    <p>Ensure compliance with industry standards for your electronics products.</p>
                 </div>
                 <div class="card">
                     <i class="fas fa-heartbeat"></i>
                     <h3>Medtech Electronics Solutions</h3>
-                    <p>
-                        Development of specialized hardware and software solutions for medical devices. We help you achieve compliance with industry 
-                        standards for safety and reliability.
-                    </p>
-                </div>
-                <div class="card">
-                    <i class="fas fa-satellite"></i>
-                    <h3>Embedded Systems Design</h3>
-                    <p>
-                        Complete embedded systems design, including firmware development and hardware integration, for IoT, industrial automation, and
-                        consumer electronics.
-                    </p>
-                </div>
-                <div class="card">
-                    <i class="fas fa-check-circle"></i>
-                    <h3>Electronics Certification Support</h3>
-                    <p>
-                        Assistance with regulatory certifications for electronics products, ensuring compliance with international standards such as 
-                        CE, FCC, and ISO.
-                    </p>
+                    <p>Specialized hardware and software development for cutting-edge medical devices.</p>
                 </div>
             </div>
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 NextScale. All rights reserved. <a href="contact.html">Contact Us</a></p>
+        <p>© 2024 Protronics. All rights reserved. <a href="contact.html">Contact Us</a></p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/omar-raita-916a49191/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
     </footer>
 </body>
 </html>

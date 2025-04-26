@@ -3,18 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - NextScale</title>
+    <title>About Us - Protronics</title>
     <link href="style.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 <body>
     <header class="navbar">
-        <h1>NextScale</h1>
+        <a href="index.html" class="logo-link">
+            <img src="logo.png" alt="eNextia Logo" class="logo">
+        </a>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="about.html">About Us</a></li>
+                <li><a href="about.html" class="active">About Us</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
@@ -22,21 +31,26 @@
     <main>
         <section class="page-header">
             <h2>About Us</h2>
-            <p>Learn more about NextScale and our journey.</p>
+            <p>Learn more about our team and our mission to innovate in electronics and engineering.</p>
         </section>
         <section class="about-me">
-            <h2>Meet the Founder</h2>
             <div class="about-container">
                 <img src="omarraita.jpg" alt="Omar Raita" class="about-image">
-                <p>Omar Raita, the founder of NextScale, is an Electronics Engineer with extensive experience in Robotics, Artificial 
-                    Intelligence, and Electronics Design. His vision for NextScale is to combine technical expertise with a passion for 
-                    innovation to create impactful solutions in Medtech, industrial automation, and consumer technology.
-                 </p>
-             </div>
+                <p>Founder and CEO of Protronics <br> Expert in Robotics, Electronics, and Artificial Intelligence.</p>
+                <a href="https://www.linkedin.com/in/omar-raita-916a49191/" target="_blank" class="linkedin-link">
+                    <i class="fab fa-linkedin"></i> Omar Raita
+                </a>
+            </div>
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 NextScale. All rights reserved. <a href="contact.html">Contact Us</a></p>
+        <p>© 2024 Protronics. All rights reserved. <a href="contact.html">Contact Us</a></p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/omar-raita-916a49191/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
     </footer>
 </body>
 </html>

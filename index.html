@@ -9,10 +9,18 @@
 </head>
 <body>
     <header class="navbar">
-        <h1>Protronics</h1>
+        <a href="index.html" class="logo-link">
+            <img src="logo.png" alt="Protronics Solutions Logo" class="logo">
+        </a>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="about.html">About Us</a></li>
@@ -22,9 +30,14 @@
     </header>
     <main>
         <section class="hero-section">
-            <h2>Electronics and Embedded Firmware Development</h2>
-            <p>Your trusted partner for Analog and Digital Circuit Design, PCB development, and Medtech solutions.</p>
-            <a href="services.html" class="button">Explore Our Services</a>
+            <div class="hero-content">
+                <h2>Electronics and Embedded Firmware Development</h2>
+                <p>Your trusted partner for Analog and Digital Circuit Design, PCB development, and Medtech solutions.</p>
+                <a href="services.html" class="button">Explore Our Services</a>
+            </div>
+            <div class="hero-image">
+                <img src="wearable-pcb.png" alt="Electronics Design Illustration">
+            </div>
         </section>
         <section class="services-cards">
             <h2>Our Expertise</h2>
@@ -58,30 +71,22 @@
                 <div class="portfolio-card">
                     <img src="ecg-patch.png" alt="ECG Monitoring Patch">
                     <h3>ECG Monitoring Patch</h3>
-                    <p>
-                        Developed a wearable ECG monitoring patch for real-time cardiac health assessment. Integrated advanced analog circuits and low-power wireless communication for accurate results.
-                    </p>
+                    <p>Developed a wearable ECG monitoring patch for real-time cardiac health assessment. Integrated advanced analog circuits and low-power wireless communication for accurate results.</p>
                 </div>
                 <div class="portfolio-card">
                     <img src="wearable-pcb.png" alt="Wearable PCB Design">
                     <h3>Custom Wearable PCB Design</h3>
-                    <p>
-                        Engineered compact PCBs for wearable devices, focusing on power efficiency and durability. Ideal for health and fitness applications.
-                    </p>
+                    <p>Engineered compact PCBs for wearable devices, focusing on power efficiency and durability. Ideal for health and fitness applications.</p>
                 </div>
                 <div class="portfolio-card">
                     <img src="medtech-solution.png" alt="Medtech Solution">
                     <h3>Medtech Electronics Solution</h3>
-                    <p>
-                        Designed next-generation hardware and software for medical devices. Achieved compliance with stringent safety and quality standards.
-                    </p>
+                    <p>Designed next-generation hardware and software for medical devices. Achieved compliance with stringent safety and quality standards.</p>
                 </div>
                 <div class="portfolio-card">
                     <img src="embedded-system.png" alt="Embedded System">
                     <h3>Embedded Systems Development</h3>
-                    <p>
-                        Built robust embedded systems for IoT and automation, enabling smart device integration with seamless functionality.
-                    </p>
+                    <p>Built robust embedded systems for IoT and automation, enabling smart device integration with seamless functionality.</p>
                 </div>
             </div>
             <a href="portfolio.html" class="button">View Full Portfolio</a>
@@ -90,10 +95,7 @@
             <h2>Meet the Team</h2>
             <div class="about-container">
                 <img src="omarraita.jpg" alt="Omar Raita" class="about-image">
-                <p>
-                    Founder and CEO of eNextia <br>
-                    Expert in Robotics, Electronics, and Artificial Intelligence. <br>
-                </p>
+                <p>Founder and CEO of Protronics <br> Expert in Robotics, Electronics, and Artificial Intelligence.</p>
                 <a href="https://www.linkedin.com/in/omar-raita-916a49191/" target="_blank" class="linkedin-link">
                     <i class="fab fa-linkedin"></i> Omar Raita
                 </a>
@@ -101,7 +103,13 @@
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 eNextia. All rights reserved. <a href="contact.html">Contact Us</a></p>
+        <p>© 2024 Protronics. All rights reserved. <a href="contact.html">Contact Us</a></p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/company/protronics-engineering/?viewAsMember=true" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
     </footer>
 </body>
 </html>
