@@ -43,10 +43,10 @@
                 </div>
                 <div class="contact-form">
                     <h3>Send Us a Message</h3>
-                    <form>
-                        <input type="text" placeholder="Your Name" required>
-                        <input type="email" placeholder="Your Email" required>
-                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <form action="https://api.protronics.ch/submit-contact" method="POST"> <!--<form action="/submit-contact" method="POST">-->
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
                         <button type="submit">Send Message</button>
                     </form>
                 </div>
