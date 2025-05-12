@@ -46,10 +46,16 @@ app.post('/submit-contact', (req, res) => {
         text: `Nom: ${name}\nEmail: ${email}\nMessage:\n${message}`
     };
 
-    transporter.sendMail(mailOptions, (error, info) => {
-        if (error) return res.status(500).send('Erreur envoi mail.');
-        res.redirect('/contact?success=true');
-    });
+transporter.sendMail(mailOptions, (error, info) => {
+    if (error) {
+        console.error('ERROR sending email:', error);      // <-- THIS WILL PRINT
+        console.error('mailOptions used:', mailOptions);    // <-- ALSO PRINTS THE DATA
+        return res.status(500).send('Erreur envoi mail.');
+    }
+    console.log('✅ Email sent successfully:', info.response); // <-- THIS PRINTS IF OK
+    res.redirect('/contact?success=true');
+});
+
 });
 
 app.listen(port, () => console.log(`Serveur en ligne sur le port ${port}`));
