@@ -13,6 +13,8 @@ body {
     margin: 0;
 }
 
+
+
 /* Navbar */
 .navbar {
     background-color: #fff;
@@ -34,6 +36,7 @@ body {
 .logo {
     height: 75px; /* Increased from 70px */
     width: auto;
+     background-color: transparent;
 }
 
 /* Hamburger Menu Styles */
@@ -619,3 +622,4 @@ footer a:hover {
         font-size: 1.1rem; /* Increased from 1rem */
     }
 }
+
